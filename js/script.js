@@ -47,7 +47,6 @@ for (let i = 0; i < 2; i++){
   }
   //detectPersonalLevel(); 
    
-//2. 
 function showMyDB (){
   if (personalMoviesDB.privat == true){
     console.log("error");
@@ -57,7 +56,7 @@ function showMyDB (){
   }
 }
 showMyDB();
-//3.
+
 function writeYourGenre(){
   for (let i = 1; i < 4; i++){
     const genre = prompt(`Ваш любимый жанр ${i}`); //эту строчку можно не создавать
